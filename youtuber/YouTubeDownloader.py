@@ -38,6 +38,14 @@ async def download_video(url):
     print(f'video {url}, {f_name} complete')
 
 
+import random
+async def this(id):
+    print(f'starting{id}')
+    pt = random.randint(1,10)
+    await asyncio.sleep(pt)
+    print(f'finished time in {pt}')
+
+
 async def download_videos():
     try:
         coroutines = [asyncio.ensure_future(download_video(target_url)) for target_url in url_list]
