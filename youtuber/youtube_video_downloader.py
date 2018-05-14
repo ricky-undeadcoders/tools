@@ -10,9 +10,10 @@ print('got content')
 mooky = yt.streams.all()
 print('got video')
 # print yt.video_id
+print(yt.title)
 # print yt.watch_url
 #
 # print mooky[0]
-mooky[0].download('E:\\Performance Media')
+# mooky[0].download('E:\\Performance Media')
 
 print('all done')
