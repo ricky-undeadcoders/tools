@@ -2,17 +2,19 @@ from pytube import YouTube
 from os import path, mkdir
 import asyncio
 
-url_list = ['https://www.youtube.com/watch?v=AQsZsgJ30AE',
-            'https://www.youtube.com/watch?v=q42hCs2E4So',
-            'https://www.youtube.com/watch?v=WXkhJ92-fsY',
-            'https://www.youtube.com/watch?v=Jd8ulMb6_ls',
-            'https://www.youtube.com/watch?v=zJ9z6Ge-vXs',
-            'https://www.youtube.com/watch?v=FjojZxDZscQ',
-            'https://www.youtube.com/watch?v=NyNUYYI-Pdg',
-            'https://www.youtube.com/watch?v=lk6FGg5RzAk',
-            'https://www.youtube.com/watch?v=cxTXJ3N91s0',
-            'https://www.youtube.com/watch?v=XKoK9wJjSqY',
-            'https://www.youtube.com/watch?v=q42hCs2E4So',
+url_list = [
+            # 'https://www.youtube.com/watch?v=AQsZsgJ30AE',
+            # 'https://www.youtube.com/watch?v=q42hCs2E4So',
+            # 'https://www.youtube.com/watch?v=WXkhJ92-fsY',
+            # 'https://www.youtube.com/watch?v=Jd8ulMb6_ls',
+            # 'https://www.youtube.com/watch?v=zJ9z6Ge-vXs',
+            # 'https://www.youtube.com/watch?v=FjojZxDZscQ',
+            # 'https://www.youtube.com/watch?v=NyNUYYI-Pdg',
+            # 'https://www.youtube.com/watch?v=lk6FGg5RzAk',
+            # 'https://www.youtube.com/watch?v=cxTXJ3N91s0',
+            # 'https://www.youtube.com/watch?v=q42hCs2E4So',
+    # 'https://www.youtube.com/watch?v=ePZDoRg8oNY',
+    'https://www.youtube.com/watch?v=Cj9xCnRg1VE'
 ]
 dest_dir = 'C:\\Users\\Ricky\\Desktop\\PyConVideos'
 
